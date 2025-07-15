@@ -4,3 +4,11 @@ Folder Structure
 order-management-system/
 ├── backend/           # Node.js + Express backend
 └── frontend/          # Angular 15+ frontend
+
+This includes:
+
+backend/server.js — Express API with simulated login and order CRUD
+
+frontend/src/app/components — Angular components for login, manage, create, and track orders
+
+frontend/src/app/services — Auth and order services
