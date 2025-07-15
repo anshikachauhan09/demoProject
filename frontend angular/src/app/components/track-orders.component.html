@@ -1,0 +1,8 @@
+<div class="container mt-4">
+  <h3>Track Orders</h3>
+  <ul class="list-group">
+    <li *ngFor="let order of orders" class="list-group-item">
+      Order #{{order.id}} - Status: {{order.status}}
+    </li>
+  </ul>
+</div>
