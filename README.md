@@ -3,6 +3,7 @@
 Freight Order Management System (FOMS) is a full-stack web application that simulates freight order management for logistics companies. It includes user and admin login, order management, and role-based UI rendering — using Angular (frontend) and Node.js (backend) with mocked JSON data (no real DB).
 
 📂 Project Structure
+
 pgsql
 Copy
 Edit
@@ -19,6 +20,7 @@ foms/
 │   │   └── guards/           # Auth guard
 │   └── angular.json          # Angular config
 └── README.md
+
  Features
 Feature	Details
 Login System	Simulated login with hardcoded credentials
